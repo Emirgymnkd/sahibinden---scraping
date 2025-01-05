@@ -13,7 +13,7 @@ def mail_at(konu, icerik, kisi):
 
     kullanici = "kadiremirgungor7@gmail.com"
     mesaj['from'] = kullanici
-    uygulama_sifresi = "mavtfjsrcelzmjsa" #google dan alınması gereken 16 karakterlik şifre
+    uygulama_sifresi = "--" #google dan alınması gereken 16 karakterlik şifre
 
     server = smtplib.SMTP("smtp.gmail.com", 587)
     server.starttls()
